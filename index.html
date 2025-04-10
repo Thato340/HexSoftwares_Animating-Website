@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Website Header</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="animated-header">
+        <div class="logo" id="logo">FunSite</div>
+        <nav class="main-nav">
+            <ul>
+                <li class="nav-item" style="--delay: 0.2s">Home</li>
+                <li class="nav-item" style="--delay: 0.4s">About</li>
+                <li class="nav-item" style="--delay: 0.6s">Games</li>
+                <li class="nav-item" style="--delay: 0.8s">Colors</li>
+                <li class="nav-item" style="--delay: 1.0s">Contact</li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1 class="title" id="main-title">Welcome to the Fun Zone!</h1>
+            <p class="subtitle" id="subtitle">Where colors come to play</p>
+            <button class="cta-button" id="cta-button">Start the Fun!</button>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape circle" style="--delay: 0.3s"></div>
+            <div class="shape triangle" style="--delay: 0.6s"></div>
+            <div class="shape square" style="--delay: 0.9s"></div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+</html>
